@@ -1,0 +1,29 @@
+[22-Apr-2025 23:15:57 UTC] PHP Warning:  Undefined array key "host" in /workspaces/Final-Exam/.wordpress/wp-includes/pluggable.php on line 1640
+[22-Apr-2025 23:20:38 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /workspaces/Final-Exam/.wordpress/wp-admin/includes/class-theme-upgrader.php on line 160
+[22-Apr-2025 23:23:04 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/Final-Exam/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[22-Apr-2025 23:54:35 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /workspaces/Final-Exam/.wordpress/wp-admin/includes/class-theme-upgrader.php on line 160
+[23-Apr-2025 00:06:38 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/Final-Exam/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[23-Apr-2025 00:58:21 UTC] PHP Fatal error:  Out of memory (allocated 35651584) (tried to allocate 2097152 bytes) in /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/class-ic-featured-products.php on line 91
+[23-Apr-2025 00:58:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[23-Apr-2025 00:58:30 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 2097152 bytes) in /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 138
+[23-Apr-2025 00:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[23-Apr-2025 00:58:30 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 2097152 bytes) in /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 143
+[23-Apr-2025 00:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Final-Exam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
