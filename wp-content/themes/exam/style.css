@@ -1,0 +1,17 @@
+/*
+Theme Name:     Exam
+Description:    
+Author:         tahahayat
+Template:       twentytwenty
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+body {font-family:impact;
+	background-color:lightblue;
+}
+
+p {font-family:impact;}
+
+li {font-family:impact;}
+
