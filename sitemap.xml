@@ -27,17 +27,12 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/sample-page/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/products/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/all-kits/
         </loc>
     </url>
     <url>
